@@ -16,8 +16,11 @@ RStudio Version 0.99.467 was used.
 ## Script Function
 
 The script function generally follows the steps laid out in the assignment.
+The script is here:
 
-The steps are:
+https://github.com/russellkeenan/dataproject3/blob/master/run_analysis.R
+
+The high level steps of the script are:
 
 ### 0. Read in the raw data
 note the filenames for 'y_test' and 'y_train' do not quite match the variable names 'Y_test' and 'Y_train'
