@@ -2,6 +2,7 @@
 
 ## Study Design
 All data has been sourced from following location:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## Code Book
@@ -10,19 +11,25 @@ The columns in step5_tidy_data.txt are:
 
 ### subject
 An identifier of the subject who carried out the experiment. This is a number from 1 to 30 identifying the particular volunteer from the 30 volunteers.
+
 Units information is not applicable.
 
 ### activity
 A text string identifying the activity for which the measurements were made.
+
 The activity is one of: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
 Units information is not applicable.
 
 ### mean of features (multiple columns)
 Each of the reamining columns is the mean of a number of measurements of a feature. 
-Units infomration is not available.
+
 The raw feature data was sourced from the zip file. 
 The raw feature data was normalized and bounded within [-1,1].
+Units infomration is not available.
+
 Further information concerning the methodology used to prepare the raw feature data is available in the features_info.txt within the zip file at the location above.
+
 The columns are:
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
