@@ -1,6 +1,6 @@
-# dataproject3
+# Course Project - Getting and Cleaning Data
 
-This file describes how the run_analysis.R script works.
+This file describes all the files submitted for the Course Project
 
 ## Working Directory
 
@@ -19,7 +19,7 @@ The script function generally follows the steps laid out in the assignment.
 
 The steps are:
 
-### Read in the raw data
+### 0. Read in the raw data
 note the filenames for 'y_test' and 'y_train' do not quite match the variable names 'Y_test' and 'Y_train'
 
 
@@ -37,7 +37,19 @@ In the pattern match, the "..-" is to match the "()-" and hence NOT match "meanF
 (variable names were created in steps above)
 
 
-### 5.  creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+### 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-### Finally, save result
+### 6. Finally, saves the result
+
+## The Output File
+
+A copy of the file generated may be found here:
+
+https://github.com/russellkeenan/dataproject3/blob/master/step5_tidy_data.txt
+
+## The Code Book
+
+The Code Book may be found here:
+
+https://github.com/russellkeenan/dataproject3/blob/master/CodeBook.md
